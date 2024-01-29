@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    background-color: #9C92A3;
+}
+h1{
+    text-align: center;
+    font-family: "Kaushan Script",sans-serif;
+    margin-top: 10px;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+  
+}
+#rock , #scissors{
+    margin-top: 50px;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #4F6D7A;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.scorecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 40px;
+    gap: 50px;
+    font-family: "Kreon",sans-serif;
+
+
+}
+#user-score ,#comp-score{
+    font-size: 40px;
+    background-color: #4F6D7A;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.msg-container{
+    margin-top: 50px ;
+}
+#msg{
+    background-color: #4F6D7A;
+    color: #fff;
+    font-size: 30px;
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Kreon",sans-serif;
+}
+
+
+
